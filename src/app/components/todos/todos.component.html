@@ -1,5 +1,6 @@
 <div class="todos">
   <form (submit)="addTodo()">
+    <div class="container">
     <input
       type="text"
       name="inputTodo"
@@ -8,6 +9,7 @@
       [(ngModel)]="inputTodo"
     />
     <input type="submit" value="Add Todo" class="todo-submit" />
+  </div>
   </form>
   <div
     *ngFor="let todo of todos; let i = index"
