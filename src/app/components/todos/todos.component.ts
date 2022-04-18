@@ -22,6 +22,10 @@ export class TodosComponent implements OnInit {
         content: 'Inform to Lakshmanan about intro',
         completed: false,
       },
+      {
+        content: 'Check-out',
+        completed: false,
+      },
     ];
   }
 
