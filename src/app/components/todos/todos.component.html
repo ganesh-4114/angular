@@ -12,7 +12,7 @@
   </div>
   </form>
   <div
-    *ngFor="let todo of todos; let i = index"
+    *ngFor="let todo of todos; index as i"
     class="todo {{ todo.completed ? 'done' : '' }}"
   >
     <div class="id">{{ i }}</div>
