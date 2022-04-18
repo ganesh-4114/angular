@@ -1,12 +1,14 @@
 .todo {
   display: flex;
-  padding: 10px 15px;
+  padding: 15px 15px;
+  flex-direction: row;
+  justify-content: flex-start;
   background-color: #fff;
   border-bottom: 1px solid #ddd;
 }
 
 .todo:nth-child(even) {
-  background-color: #eee;
+  background-color: rgb(250, 246, 246);
 }
 
 .todo:last-of-type {
